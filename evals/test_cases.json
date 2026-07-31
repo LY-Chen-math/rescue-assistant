@@ -1,0 +1,45 @@
+[
+    {
+        "id": "eval_001",
+        "category": "normal",
+        "incident": "Zone A, serious car accident, two injured",
+        "location": "Zone A",
+        "expected": {
+            "severity": "high",
+            "needs_dispatch": true,
+            "resource_type": "ambulance"
+        }
+    },
+    {
+        "id": "eval_002",
+        "category": "normal",
+        "incident": "My car has a flat tire on the highway",
+        "location": "Zone B",
+        "expected": {
+            "severity": "medium",
+            "needs_dispatch": true,
+            "resource_type": "tow_truck"
+        }
+    },
+    {
+        "id": "eval_003",
+        "category": "edge",
+        "incident": "Vehicle on fire with smoke in Zone A",
+        "location": "Zone A",
+        "expected": {
+            "severity": "emergency",
+            "needs_dispatch": true,
+            "resource_type": "fire_truck"
+        }
+    },
+    {
+        "id": "eval_004",
+        "category": "out_of_scope",
+        "incident": "Is there a gas station nearby?",
+        "location": "Zone A",
+        "expected": {
+            "severity": "low",
+            "needs_dispatch": false
+        }
+    }
+]
